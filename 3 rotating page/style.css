@@ -3,9 +3,11 @@
     src: url(./brush-king-font/BrushKing-MVVPp.otf);
   }
 *{
+    
     box-sizing: border-box;
 }
 body{
+    
     color: rgb(183, 188, 194);
     background-color:#010101;
 }
@@ -93,11 +95,12 @@ border-radius: 50%;
 }
 .written{
     background-color:#010101;
-
+    transform-origin: left top;
     transition: 0.5s ease-in;
 }
 .writtenrotated{
-    transform-origin: left 0px;
+    
+    
     transition: 0.5s ease-in;
     transform: rotate(-15deg);
 
