@@ -1,0 +1,39 @@
+@font-face {
+  font-family: head;
+  src: url(./MoonbrightDemo-1GGn2.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./1283138.png);
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px);
+}
+
+.text {
+  width: 100px;
+  height: 100px;
+  /* position: absolute; */
+  /* top: 50%;
+    right: 50vw; */
+  color: #ffff;
+  font-family: "head", sans-serif;
+  z-index: 10;
+  font-size: 64px;
+}
