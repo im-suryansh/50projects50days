@@ -1,0 +1,138 @@
+@font-face {
+    font-family: head;
+    src: url(./brush-king-font/BrushKing-MVVPp.otf);
+  }
+*{
+    box-sizing: border-box;
+}
+body{
+    color: rgb(183, 188, 194);
+    background-color:#010101;
+}
+.container{
+    position: relative;
+    font-size: 18px;
+    
+}
+.written p{
+    line-height: 23px;
+}
+.written h3{
+    font-family: "head",sans-serif;
+}
+h1{
+    font-size: 48px;
+    font-family: "head",sans-serif;
+}
+
+.circlecontainer{
+top:-100px;
+left: -100px;
+height: 30px;
+width: 200px;
+}
+
+.circle{
+    transition: 0.5s ease-in;
+top:-100px;
+left: -100px;
+height: 200px;
+width: 200px;
+background-color: #9b5941;
+position: fixed;
+border-radius: 50%;
+
+}
+
+.written{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.containerimg{
+    display: flex;
+    justify-content: center;
+}
+
+.open{
+    cursor: pointer;
+    position: absolute;
+    top:130px;
+    right: 49px;
+    width: 25px;
+    height: 10px;
+    
+}
+.open img{
+    
+    width: 25px;
+    height: 25px;
+    z-index: 1000;
+}
+
+.close{
+    cursor: pointer;
+    position: absolute;
+    top:130px;
+    left: 49px;
+    width: 25px;
+    height: 10px;
+    
+}
+.close img{
+    
+    width: 25px;
+    height: 25px;
+    z-index: 1000;
+}
+
+.rotated{
+   
+    transition: 0.5s ease-in;
+    transform: rotate(-90deg);
+}
+.written{
+    background-color:#010101;
+
+    transition: 0.5s ease-in;
+}
+.writtenrotated{
+    transform-origin: left 0px;
+    transition: 0.5s ease-in;
+    transform: rotate(-15deg);
+
+}
+.navhide{
+    transition: 0.3s ease-in;
+
+    position:fixed;
+    margin: 20px;
+    left: -150px;
+    bottom: 40px;
+}
+.navshow{
+    transition: 0.4s ease-in;
+
+    position:fixed;
+    
+    left: 0px;
+    bottom: 40px;
+}
+.navshow h2{
+    /* transition: 0.3s ease-in; */
+    
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+}
+.home{
+    transition: 0.5s ease-in;
+}
+.about{
+    transition: 0.6s ease-in;
+    padding-left: 20px;
+}
+.contact{
+    transition: 0.7s ease-in;
+    padding-left: 40px;
+}
