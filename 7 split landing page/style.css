@@ -1,0 +1,78 @@
+@font-face {
+  font-family: head;
+  src: url(./BrushKing-MVVPp.otf);
+}
+* {
+    overflow: hidden;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  font-family: "head", sans-serif;
+  color: white;
+  letter-spacing: 5px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+    
+  position: absolute;
+  left: -50vw;
+  transition: 0.5s ease-in;
+  filter: grayscale(0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://preview.redd.it/bputb5nbmb991.png?width=1920&format=png&auto=webp&s=56f4f7d02c2cfecd68866b8715678f83d2c700ce);
+}
+.right {
+   
+  position: absolute;
+  transition: 0.5s ease-in;
+  right: -50vw;
+  width: 100vw;
+  height: 100vh;
+  filter: grayscale(0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(https://preview.redd.it/0etoq9nbmb991.png?width=1920&format=png&auto=webp&s=bacab21bd3b6e1591d65fc2b5bae4839ec1d7e8a);
+}
+.right-hover{
+    left: -75vw;
+  transition: 0.5s ease-in;
+
+}
+.left-hover{
+    right: -75vw;
+  transition: 0.5s ease-in;
+
+}
+.right:hover {
+    filter: grayscale(0);
+    right: -25vw;
+  transition: 0.5s ease-in;
+ 
+}
+
+
+.left:hover {
+  filter: grayscale(0);
+  left: -25vw;
+  transition: 0.5s ease-in;
+
+}
+
