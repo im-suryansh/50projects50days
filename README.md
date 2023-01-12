@@ -12,3 +12,4 @@
 | 08  | [Form Wave](https://github.com/im-suryansh/50projects50days/tree/main/8%20form%20wave)                                         | [Live Demo](https://8-wavy-form-im-suryansh.netlify.app/)                     |
 | 09  | [Drums](https://github.com/im-suryansh/50projects50days/tree/main/9%20drum%20set)                                         | [Live Demo](https://9-drums-im-suryansh.netlify.app/)                     |
 | 10  | [Dad-jokes](https://github.com/im-suryansh/50projects50days/tree/main/10%20dad%20joke)                                         | [Live Demo](https://10-dad-jokes-im-suryansh.netlify.app/)                     |
+| 11  | [Event-key-code](https://github.com/im-suryansh/50projects50days/tree/main/11%20event%20key%20codes)                                         | [Live Demo](https://11-event-key-im-suryansh.netlify.app/)                     |
