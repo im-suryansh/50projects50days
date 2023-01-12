@@ -7,7 +7,7 @@ let box=document.querySelector(".box")
 window.addEventListener('keydown',function(event){
     before.style.display='none'
     box.style.display='flex'
-    key.innerText=`' ${event.key}'`
+    key.innerText=` ${event.key}`
     code.innerText=`${event.code}`
     keyccode.innerText=`${event.keyCode}`
 })
