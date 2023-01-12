@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/45ab01fd-693d-42f5-ad9b-2e61211f0b95/deykycd-05fb3f7f-00c8-4f02-b708-0aff169927ee.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ1YWIwMWZkLTY5M2QtNDJmNS1hZDliLTJlNjEyMTFmMGI5NVwvZGV5a3ljZC0wNWZiM2Y3Zi0wMGM4LTRmMDItYjcwOC0wYWZmMTY5OTI3ZWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NktWfsI578cOvX9J9znFLZd-D3B9iBACQ0h9hHMpp_k");
+    overflow: hidden;
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.box{ border: 2px solid #b18597;
+    position:relative;
+    padding: 4px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ffe9e9;
+    width: 140.26px;
+    height: 69px;
+}
+.box::before{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    box-shadow: 0 0 0 2px #b18597,9px 0 0 #b6a4a4;
+    border-radius: 10px;
+    background-color: #f9c4d2;
+    transform: translate3d(0, 10px, 0);
+}
+
+.boxpressed{
+    box-shadow: 0 ;
+   transform: translateY(10px);
+   box-shadow: 0 9px 0 #b6a4a4;
+
+
+
+}
+.boxpressed::before{
+   /* transform: translateY(-5px); */
+   /* transform: translateY(10px); */
+    /* height: 100%; */
+    display: none;
+    transition: .4s ease-in;
+    box-shadow: 0 0 0 2px #b18597,0 9px 0 #ffe3e2;
+
+}
