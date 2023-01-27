@@ -2,44 +2,40 @@
     box-sizing: border-box;
 }
 
-body{ 
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+body {
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  
 }
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
 
 .container{
-    height: 100vh;
-
     display: flex;
-    align-items: center;
-    justify-content:center;
 }
-
-.box{
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    background-color: b;
-    height: 200px;
-    margin: 20px;
-    text-align: center;
-    flex-direction: column;
-}
-
-
 .fab{
-    font-size: 30px;
+    font-size: 48px;
 }
-
-@media (max-width: 580px) {
-    body {
-      flex-direction: column;
-    }
-  }
-  
